@@ -1,0 +1,22 @@
+{
+  "name": "udx-css-complete-guide",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/camba95/udx-css-complete-guide.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/camba95/udx-css-complete-guide/issues"
+  },
+  "homepage": "https://github.com/camba95/udx-css-complete-guide#readme",
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
+}
