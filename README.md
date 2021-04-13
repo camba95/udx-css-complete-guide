@@ -8,4 +8,12 @@
 - Internal, style is defined inside a `style` tag in the `head` section
 - External, references an external css file, allows file caching
 
-**Selector**: indicates which elements in the DOM a style should be applied to
+## Selectors
+
+Indicates which elements in the DOM a style should be applied to
+
+- Universal selector `*`
+- Tag selector
+- Class selector
+- ID selector
+- Attribute selector
