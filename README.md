@@ -8,12 +8,21 @@
 - Internal, style is defined inside a `style` tag in the `head` section
 - External, references an external css file, allows file caching
 
-## Selectors
+### Selectors
 
 Indicates which elements in the DOM a style should be applied to
 
 - Universal selector `*`
-- Tag selector
-- Class selector
+- Tag and pseudo elements selector
+- Class, pseudo class and attribute selectors
 - ID selector
-- Attribute selector
+- Inline style
+
+### Core Concepts
+
+- Cascading: multiple rules can be applied to the same element
+- Specificity: resolves conflicts from multiple rules
+- Inheritance: elements inherit styles from their parents
+
+Note: Inheritance with body selector is good for font size font family
+
