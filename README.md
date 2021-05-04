@@ -26,3 +26,11 @@ Indicates which elements in the DOM a style should be applied to
 
 Note: Inheritance with body selector is good for font size font family
 
+### Combinators
+
+Help to be more precise by combining selectors
+
+- Adjacent sibling (+): 2nd element comes directly after the 1st one and share same parent
+- General sibling (~): 2nd element comes (not directly) after the 1st one and share same parent
+- Child (>): 2nd element is a direct child of the first one
+- Descendant ([space]): 2nd is a descendant of the 1st one
